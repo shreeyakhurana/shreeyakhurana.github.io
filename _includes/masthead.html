@@ -50,5 +50,20 @@
     {% if user.hireable %}
       <span title="Hire me" class="d-inline-block f5 rounded-2 text-white bg-green py-1 px-2">Available for hire</span>
     {% endif %}
+
+    <!--Insert separate about page here. You can create a Markdown about page by following this tutorial: https://lab.github.com/githubtraining/communicating-using-markdown-->
+    <a href="" class="text-underline text-bold">
+      About Me
+    </a>
+
+    <p class="mb-3 f4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+      Include a short bio about who you are and where you work.
+    </p>
+
+    <!--Provide link of your resume. I recommend uploading it to Google Drive-->
+    <a href="" class="text-underline text-bold">
+      RESUME <br>
+    </a>
+    
   </div>
 {% endif %}
