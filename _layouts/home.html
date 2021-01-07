@@ -8,15 +8,33 @@
       {{ content }}
     </div>
 
-    <div class="my-6">
-      {% include projects.html %}
-    </div>
+    {% if site.experience %}
+      <div class="my-6">
+        {% include internandresearch.html %}
+      </div>
+    {% endif %}
+
+    {% if site.orgs %}
+      <div class="my-6">
+        {% include orgs.html %}
+      </div>
+    {% endif %}
+
+    {% if site.events %}
+      <div class="my-6">
+        {% include awards.html %}
+      </div>
+    {% endif %}
 
     {% if site.topics %}
       <div class="my-6">
         {% include interests.html %}
       </div>
     {% endif %}
+
+    <div class="my-6">
+      {% include projects.html %}
+    </div>
 
     {% unless posts_total == 0 %}
       <div class="my-6">
@@ -25,12 +43,22 @@
     {% endunless %}
   </div>
 {% else %}
+
+  <!--At the moment, the particle section is only applied to the website if the website layout is sidebar-->
+
   <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
     <div class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right border-gray-light bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
       {% include masthead.html metadata=true %}
     </div>
 
-    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-gray-light" {% if site.style == 'dark' %}style="background-color: #2f363d !important"{% endif %}>
+    <div class="col-md-7 col-lg-8 col-xl-9 px-4 py-6 px-lg-7 border-top border-md-top-0 bg-color-gray" 
+    {% if site.style == 'dark' %} style="background-color: #2f363d !important"{% endif %}>
+
+      <div class="canvas">
+        <canvas id="canvas1"></canvas>
+        <script src="js/app.js"></script>
+      </div>
+      
       <div class="mx-auto" style="max-width: 900px;">
         {% unless content == ""  %}
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
@@ -38,11 +66,23 @@
           </div>
         {% endunless %}
 
-        {% include projects.html %}
+        {% if site.experience %}
+          {% include internandresearch.html %}
+        {% endif %}
+
+        {% if site.organizations %}
+          {% include orgs.html %}
+        {% endif %}
+
+        {% if site.events %}
+          {% include awards.html %}
+        {% endif %}
 
         {% if site.topics %}
           {% include interests.html %}
         {% endif %}
+
+        {% include projects.html %}
 
         {% unless posts_total == 0 %}
           {% include thoughts.html %}

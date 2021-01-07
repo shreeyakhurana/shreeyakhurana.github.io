@@ -1,3 +1,5 @@
+# to add favicon, upload image to repo and name it favicon.ico
+
 layout: sidebar
 style: light
 
@@ -24,35 +26,114 @@ projects:
   limit: 9
   exclude:
     archived: false
-    forks: true
+    forks: false
     projects:
     # - repo-name
 
-# social_media:
+# If you want to include any social media, just uncomment and add username
+
+#social_media:
   # behance: your_username
+  # devpost: your_username
   # dribbble: your_username
-  # facebook: your_username
+  #  facebook: your_username
   # hackerrank: your_username
-  # instagram: your_username
+    instagram: shreeyakhurana
   # keybase: your_username
-  # linkedin: your_username
+  #  linkedin: your_username
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+    twitter: shreeyakhurana
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  # website: your_username
   # youtube: your_username
 
+portfolio:
+
+# if you want to add mor languages, just add another "title" point underneath language
+# be mindful of spacing
+
+  - name: insert name here
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to the image repo, pushing repo to Github, then linking pictures from remote repo to local repo. Will be resolving this issue soon
+    image_url: 
+    description: insert description here
+    #give height and width of picture as desired by pixels
+    height: 
+    width: 
+    language:
+      - title: HTML/CSS
+      - title: JavaScript
+      - title: and many more
+    date: insert date here
+
+#example
+  - name: Github
+    web_url: https://github.com/
+    image_url: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+    description: Access code from around the world!
+    height: 64
+    width: 64
+    language:
+      - title: HTML/CSS
+      - title: JavaScript
+      - title: and many more
+    date: 2008 - Present
+
+#you can add as many cards as you like!
+
+experience:
+  - name: insert name here
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
+    image_url: 
+    description: insert description here
+    #give height and width of picture as desired by pixels
+    height: 
+    width: 
+    date:
+
+organizations:
+  - name: insert name here
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
+    image_url: 
+    description: insert description here
+    #give height and width of picture as desired by pixels
+    height: 
+    width: 
+    date: 
+
+events:
+-   name: insert name here
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
+    image_url: 
+    description: insert description here
+    #give height and width of picture as desired by pixels
+    height: 
+    width: 
+    date: 
+
 topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-
-  - name: Web design
-
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+  - name: insert name here
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
+    image_url: 
+    description: insert description here
+    #give height and width of picture as desired by pixels
+    height:
+    width:
