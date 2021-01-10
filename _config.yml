@@ -32,7 +32,7 @@ projects:
 
 # If you want to include any social media, just uncomment and add username
 
-#social_media:
+social_media:
   # behance: your_username
   # devpost: your_username
   # dribbble: your_username
@@ -88,7 +88,7 @@ portfolio:
 #you can add as many cards as you like!
 
 experience:
-  - name: insert name here
+  - name: US Naval Research Laboratoy, Science and Engineering Apprenticeship Program (SEAP) Fellow
     #if no web_url is given, the card won't link to another page and won't hover
     web_url: 
     #if not picture is given, the card will display a gray box with a hastag
