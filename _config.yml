@@ -94,11 +94,23 @@ experience:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/nrl.jpg"
-    description: insert description here
+    description: DESCRIPTION
     #give height and width of picture as desired by pixels
     height: 
     width: 
-    date:
+    date: Jun 2019 - Aug 2019
+
+  - name: Johns Hopkins Applied Physics Laboratory, ASPIRE Intern
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
+    image_url: "images/apl.jpg"
+    description: DESCRIPTION
+    #give height and width of picture as desired by pixels
+    height: 
+    width: 
+    date: Jun 2018 - Aug 2018
 
 organizations:
   - name: insert name here
