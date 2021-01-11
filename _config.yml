@@ -93,7 +93,7 @@ experience:
     web_url: 
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
-    image_url: 
+    image_url: "images/nrl.jpg"
     description: insert description here
     #give height and width of picture as desired by pixels
     height: 
