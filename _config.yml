@@ -40,7 +40,7 @@ social_media:
   # hackerrank: your_username
     instagram: shreeyakhurana
   # keybase: your_username
-  #  linkedin: your_username
+   linkedin: shreeya-khurana-cmu
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
@@ -143,6 +143,18 @@ organizations:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/sl-logo.png"
+    description: DESCRIPTION
+    #give height and width of picture as desired by pixels
+    height: 
+    width: 
+    date: September 2020 - Present
+  
+  - name: CMIMC
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
+    image_url: "images/cmimc.png"
     description: DESCRIPTION
     #give height and width of picture as desired by pixels
     height: 
