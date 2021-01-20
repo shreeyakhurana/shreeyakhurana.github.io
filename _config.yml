@@ -158,7 +158,7 @@ organizations:
     description: DESCRIPTION
     #give height and width of picture as desired by pixels
     height: 
-    width: 100
+    width: 200
     date: September 2020 - Present
 
 events:
