@@ -40,7 +40,11 @@ social_media:
   # hackerrank: your_username
     instagram: shreeyakhurana
   # keybase: your_username
+<<<<<<< HEAD
    #linkedin: shreeya-khurana-cmu
+=======
+    linkedin: shreeya-khurana-cmu
+>>>>>>> ba3add9a9314a7048e1730f78eacbf7722398dac
   # mastodon: your_username
   # medium: your_username
   # stackoverflow: your_user_id
