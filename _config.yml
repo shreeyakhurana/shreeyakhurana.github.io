@@ -94,7 +94,7 @@ experience:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/nrl.jpg"
-    description: DESCRIPTION
+    description: Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions
     #give height and width of picture as desired by pixels
     height: 
     width: 
@@ -125,17 +125,6 @@ experience:
     date: Jul 2015 - Apr 2018
 
 organizations:
-  - name: MATHgirls
-    #if no web_url is given, the card won't link to another page and won't hover
-    web_url: 
-    #if not picture is given, the card will display a gray box with a hastag
-    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
-    image_url: "images/mathgirls-logo.png"
-    description: DESCRIPTION
-    #give height and width of picture as desired by pixels
-    height: 
-    width: 
-    date: May 2017 - Present
 
   - name: ScottyLabs
     #if no web_url is given, the card won't link to another page and won't hover
@@ -148,6 +137,19 @@ organizations:
     height: 
     width: 
     date: September 2020 - Present
+  - name: MATHgirls
+    #if no web_url is given, the card won't link to another page and won't hover
+    web_url: 
+    #if not picture is given, the card will display a gray box with a hastag
+    #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
+    image_url: "images/mathgirls-logo.png"
+    description: DESCRIPTION
+    #give height and width of picture as desired by pixels
+    height: 
+    width: 
+    date: May 2017 - Present
+
+  
   
   - name: CMIMC
     #if no web_url is given, the card won't link to another page and won't hover
