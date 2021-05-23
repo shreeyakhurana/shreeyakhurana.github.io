@@ -94,7 +94,7 @@ experience:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/nrl.jpg"
-    description: "https://www.w3schools.com/howto/howto_html_file_upload_button.asp"
+    description: Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions
     #Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions
     #give height and width of picture as desired by pixels
     height: 64
