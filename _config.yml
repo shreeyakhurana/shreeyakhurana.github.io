@@ -97,8 +97,8 @@ experience:
     description: 
     #Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions
     #give height and width of picture as desired by pixels
-    height: 
-    width: 
+    height: 64
+    width: 64
     date: Jun 2019 - Aug 2019
 
   - name: Johns Hopkins Applied Physics Laboratory, ASPIRE Intern
