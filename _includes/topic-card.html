@@ -14,7 +14,8 @@
     {% endif %}
     <p class="f3 lh-condensed text-center link-gray-dark mb-0 mt-1">{{ topic.name }}</p>
     {% if topic.description %}
-      <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
+    <button onclick="{{ topic.description }}" >DESCRIPTION</button>
+      <!--<p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>-->
     {% endif %}
 
     <div class="tagContainer">
@@ -45,7 +46,7 @@
     {% endif %}
     <p class="f3 lh-condensed text-center mb-0 mt-1">{{ topic.name }}</p>
     {% if topic.description %}
-      <p class="f5 text-gray text-center mb-0 mt-1">{{ topic.description }}</p>
+      <p class="f5 text-gray text-center mb-0 mt-1">DESCRIPTION</p>
     {% endif %}
     {% if topic.language %}
       <p class="f5 text-gray text-center mb-0 mt-1"><b>Languages and Technologies: </b>{{ topic.language }}</p>

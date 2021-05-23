@@ -90,7 +90,7 @@ portfolio:
 experience:
   - name: US Naval Research Laboratoy, Science and Engineering Apprenticeship Program (SEAP) Fellow
     #if no web_url is given, the card won't link to another page and won't hover
-    web_url: "descriptionNRL.html"
+    web_url: 
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/nrl.jpg"
