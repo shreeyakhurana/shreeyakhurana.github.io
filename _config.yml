@@ -107,7 +107,7 @@ experience:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/apl.jpg"
-    description: DESCRIPTION
+    description: Under Contruction
     #give height and width of picture as desired by pixels
     height: 
     width: 
@@ -119,7 +119,7 @@ experience:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/nasa.jpg"
-    description: DESCRIPTION
+    description: Under Contruction
     #give height and width of picture as desired by pixels
     height: 
     width: 
@@ -133,7 +133,7 @@ organizations:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/sl-logo.png"
-    description: DESCRIPTION
+    description: Under Contruction
     #give height and width of picture as desired by pixels
     height: 
     width: 
@@ -144,7 +144,7 @@ organizations:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/mathgirls-logo.png"
-    description: DESCRIPTION
+    description: Under Contruction
     #give height and width of picture as desired by pixels
     height: 
     width: 
@@ -158,7 +158,7 @@ organizations:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/cmimc.png"
-    description: DESCRIPTION
+    description: Under Contruction
     #give height and width of picture as desired by pixels
     height: 
     width: 
@@ -170,7 +170,7 @@ organizations:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/wscs.png"
-    description: DESCRIPTION
+    description: Under Contruction
     #give height and width of picture as desired by pixels
     height: 
     width: 
@@ -182,7 +182,7 @@ organizations:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/scs4all.jpg"
-    description: DESCRIPTION
+    description: Under Contruction
     #give height and width of picture as desired by pixels
     height: 
     width: 
