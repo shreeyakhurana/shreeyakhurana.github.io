@@ -94,8 +94,7 @@ experience:
     #if not picture is given, the card will display a gray box with a hastag
     #image must be a url. I recommend uploading pictures to repo, then linking pictures from repo to here. will be resolving this issue soon
     image_url: "images/nrl.jpg"
-    description: Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions
-    First author paper accepted for presentation and publication in the Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART 2020)
+    description: <p> Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions </p> <p>First author paper accepted for presentation and publication in the Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART 2020)</p>
     #Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions
     #give height and width of picture as desired by pixels
     height: 64
