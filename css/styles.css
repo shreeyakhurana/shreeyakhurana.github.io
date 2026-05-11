@@ -3625,7 +3625,7 @@ input[type="button"].btn--primary:focus {
     transform: translateX(-50%);
     position: absolute;
     left: 50%;
-    bottom: var(--vspace-1_25);
+    bottom: var(--vspace-3);
 }
 
 .s-hero__scroll-link {
