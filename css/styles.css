@@ -3941,7 +3941,133 @@ input[type="button"].btn--primary:focus {
     margin-right: .2rem;
 }
 
-/* ------------------------------------------------------------------- 
+/* -------------------------------------------------------------------
+ * ## experience tabs
+ * ------------------------------------------------------------------- */
+.exp-tabs__nav {
+    border-left: 2px solid var(--color-border);
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--vspace-0_75);
+}
+
+.exp-tab {
+    background: none;
+    border: none;
+    border-left: 2px solid transparent;
+    margin-left: -2px;
+    padding: .7rem 1.2rem;
+    text-align: left;
+    font-family: var(--font-1);
+    font-size: var(--text-sm);
+    cursor: pointer;
+    color: var(--color-text-light);
+    transition: color .2s, background .2s, border-color .2s;
+    line-height: 1.3;
+}
+
+.exp-tab:hover {
+    color: var(--color-1);
+    background: hsla(182, 82%, 38%, .05);
+}
+
+.exp-tab.is-active {
+    color: var(--color-1);
+    border-left-color: var(--color-1);
+    background: hsla(182, 82%, 38%, .07);
+}
+
+.exp-tabs__content {
+    padding-left: 0;
+}
+
+.exp-panel {
+    display: none;
+}
+
+.exp-panel.is-active {
+    display: block;
+}
+
+.exp-panel__company {
+    font-family: var(--font-1);
+    font-weight: 700;
+    font-size: calc(var(--text-size) * 1.4);
+    margin-bottom: .25rem;
+    margin-top: 0;
+}
+
+.exp-panel__company a {
+    color: var(--color-text);
+    text-decoration: none;
+    transition: color .2s;
+}
+
+.exp-panel__company a:hover {
+    color: var(--color-1);
+}
+
+.exp-panel__role {
+    font-family: var(--font-1);
+    font-weight: 600;
+    font-size: var(--text-sm);
+    text-transform: uppercase;
+    letter-spacing: .12em;
+    color: var(--color-1);
+    margin-bottom: .2rem;
+}
+
+.exp-panel__date {
+    font-family: var(--font-1);
+    font-size: var(--text-sm);
+    color: var(--color-text-light);
+    margin-bottom: 1.2rem;
+}
+
+.exp-panel__bullets {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.exp-panel__bullets li {
+    padding-left: 1.4em;
+    position: relative;
+    margin-bottom: .5rem;
+}
+
+.exp-panel__bullets li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: var(--color-1);
+}
+
+@media screen and (max-width: 600px) {
+    .exp-tabs__nav {
+        border-left: none;
+        border-bottom: 2px solid var(--color-border);
+        flex-direction: row;
+        overflow-x: auto;
+        margin-top: var(--vspace-0_5);
+        margin-bottom: var(--vspace-0_75);
+    }
+
+    .exp-tab {
+        border-left: none;
+        border-bottom: 2px solid transparent;
+        margin-left: 0;
+        margin-bottom: -2px;
+        white-space: nowrap;
+    }
+
+    .exp-tab.is-active {
+        border-left-color: transparent;
+        border-bottom-color: var(--color-1);
+    }
+}
+
+/* -------------------------------------------------------------------
  * responsive:
  * resume
  * ------------------------------------------------------------------- */

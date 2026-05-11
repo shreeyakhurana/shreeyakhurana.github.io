@@ -162,7 +162,7 @@
                             </span>
                         </p>
                     </div>
-                    <p>Relevant Coursework: Probabilistic Graphical Models, Multimodal Machine Learning, Generative AI, Computer Vision, Natural Language Processing, Convex Optimization, Parallel &amp; Sequential Data Structures &amp; Algorithms, Intro to Computer Systems</p>
+                    <p>Teaching Assistant - 10-423/623: Generative AI (Aug 2024 – Dec 2024)</p>
 
                 </div> <!-- end resume-block -->
 
@@ -177,290 +177,113 @@
                             </span>
                         </p>
                     </div>
+                    <p> Teaching Assistant - 10-315: Introduction to Machine Learning (Jan 2023 – May 2024)</p>
+                    <p> Teaching Assistant - 07-180: Concepts in Artificial Intelligence (Jan 2022 – May 2022)</p>
 
                 </div> <!-- end resume-block -->
             </div>
         </div> <!-- s-resume__section -->
         
-        <div id = "resume" class="row s-resume__section">
+        <div id="resume" class="row s-resume__section">
             <div class="column large-3 tab-12">
                 <h3 class="section-header-allcaps">Experience</h3>
+                <!-- Tab nav -->
+                <div class="exp-tabs__nav" role="tablist">
+                    <button class="exp-tab is-active" data-target="exp-stripe-fte" role="tab">Stripe</button>
+                    <button class="exp-tab" data-target="exp-stripe-intern" role="tab">Stripe (intern)</button>
+                    <button class="exp-tab" data-target="exp-harp" role="tab">CMU HARP Lab</button>
+                    <button class="exp-tab" data-target="exp-amazon" role="tab">Amazon Robotics</button>
+                    <button class="exp-tab" data-target="exp-cruise" role="tab">Cruise</button>
+                    <button class="exp-tab" data-target="exp-nrl" role="tab">NRL</button>
+                    <button class="exp-tab" data-target="exp-nasa" role="tab">NASA Goddard</button>
+                </div>
             </div>
             <div class="column large-9 tab-12">
-                <div class="resume-block">
 
-                    <div class="resume-block__header">
-                        <h4 class="h3">Stripe</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Software Engineer I, II</span>
-                            <span class="resume-block__header-date">
-                                Jan 2025 – Present
-                            </span>
-                        </p>
-                    </div>
+                    <!-- Tab panels -->
+                    <div class="exp-tabs__content">
 
-                    <p>
-                        •	Built an agentic assistant for merchants using Stripe able to help with tasks from customer support to object creation and business analytics. My work directly resulted in ~$1M/year savings in support costs. <br>
-                        •	Implemented various improvements to RAG system including re-ranking algorithm and text embedding model resulting in ~2x improvement in metrics like MRR. <br>
-                        •	Developed an automated conversation quality evaluation pipeline to create a durable system for regression detection and launch confidence <br>
-                        •	Developed an MVP for agent intelligence platform that ingests agentic conversations across Stripe and determines insights and improvements and also implements the suggested improvements
-                    </p>
+                        <div class="exp-panel is-active" id="exp-stripe-fte" role="tabpanel">
+                            <h3 class="exp-panel__company"><a href="https://stripe.com">Stripe</a></h3>
+                            <div class="exp-panel__role">Software Engineer I, II</div>
+                            <div class="exp-panel__date">Jan 2025 – Present</div>
+                            <ul class="exp-panel__bullets">
+                                <li>Built an agentic assistant for merchants using Stripe able to help with tasks from customer support to object creation and business analytics. My work directly resulted in ~$1M/year savings in support costs.</li>
+                                <li>Implemented various improvements to RAG system including re-ranking algorithm and text embedding model resulting in ~2x improvement in metrics like MRR.</li>
+                                <li>Developed an automated conversation quality evaluation pipeline to create a durable system for regression detection and launch confidence.</li>
+                                <li>Developed an MVP for agent intelligence platform that ingests agentic conversations across Stripe and determines insights and improvements and also implements the suggested improvements.</li>
+                            </ul>
+                        </div>
 
-                </div> <!-- end resume-block -->
+                        <div class="exp-panel" id="exp-stripe-intern" role="tabpanel">
+                            <h3 class="exp-panel__company"><a href="https://stripe.com">Stripe</a></h3>
+                            <div class="exp-panel__role">Software Engineering Intern</div>
+                            <div class="exp-panel__date">May 2024 – Aug 2024</div>
+                            <ul class="exp-panel__bullets">
+                                <li>Interned on the ML Exploration team under the ML Infrastructure Organization.</li>
+                                <li>Built an interactive debugger on ML workflow orchestration platform, saving MLEs 20 min per iteration cycle.</li>
+                                <li>Performed prompt engineering and benchmarked LLMs for query intent classification, and gauged performance-cost trade-offs.</li>
+                            </ul>
+                        </div>
 
-                <div class="resume-block">
+                        <div class="exp-panel" id="exp-harp" role="tabpanel">
+                            <h3 class="exp-panel__company"><a href="https://labs.ri.cmu.edu/harp/">CMU Robotics Institute – HARP Lab</a></h3>
+                            <div class="exp-panel__role">Research Assistant</div>
+                            <div class="exp-panel__date">Aug 2023 – Jan 2025</div>
+                            <ul class="exp-panel__bullets">
+                                <li>Developing a model which learns a driver’s situational awareness through eye-gaze tracking.</li>
+                                <li>Constructed a driving dataset with continuous per-object situational awareness labels, traffic agent states, and driver eye-gaze collected using a protocol in a VR driving simulator.</li>
+                                <li>Developed a gaze-based ML image segmentation model of a driver’s per-object situational awareness in various traffic scenarios.</li>
+                                <li>Paper accepted to and published in the proceedings of CoRL 2024.</li>
+                            </ul>
+                        </div>
 
-                    <div class="resume-block__header">
-                        <h4 class="h3">Stripe</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Software Engineering Intern</span>
-                            <span class="resume-block__header-date">
-                                May 2024 – Aug 2024
-                            </span>
-                        </p>
-                    </div>
+                        <div class="exp-panel" id="exp-amazon" role="tabpanel">
+                            <h3 class="exp-panel__company"><a href="https://www.amazonrobotics.com">Amazon Robotics</a></h3>
+                            <div class="exp-panel__role">Software Development Engineering Intern</div>
+                            <div class="exp-panel__date">May 2023 – Aug 2023</div>
+                            <ul class="exp-panel__bullets">
+                                <li>Built a Python package for input validation and manipulation for simulation of a robotic fulfillment center.</li>
+                                <li>Reduced simulation time significantly by catching errors in 48GBs of required data before a simulation job is launched.</li>
+                                <li>Improved interpretability and user experience of simulation tooling and reporting.</li>
+                            </ul>
+                        </div>
 
-                    <p>
-                        •	Interned on the ML Exploration team under the ML Infrastructure Organization <br>
-                        •	Built an interactive debugger on ML workflow orchestration platform, saving MLEs 20 min per iteration cycle <br>
-                        •	Performed prompt engineering and benchmarked LLMs for query intent classification, and gauged performance-cost trade-offs
-                    </p>
+                        <div class="exp-panel" id="exp-cruise" role="tabpanel">
+                            <h3 class="exp-panel__company">Cruise</h3>
+                            <div class="exp-panel__role">Software Engineering Intern</div>
+                            <div class="exp-panel__date">May 2022 – Aug 2022</div>
+                            <ul class="exp-panel__bullets">
+                                <li>Implemented NPC (non-player character) intent conditioning in trajectory prediction ML model.</li>
+                                <li>Trained, deployed, and tested model on internal simulation dataset, achieving >5% increase in collision recall.</li>
+                            </ul>
+                        </div>
 
-                </div> <!-- end resume-block -->
-                <div class="resume-block">
+                        <div class="exp-panel" id="exp-nrl" role="tabpanel">
+                            <h3 class="exp-panel__company"><a href="https://www.nrl.navy.mil">U.S. Naval Research Laboratory</a></h3>
+                            <div class="exp-panel__role">Summer Research Intern</div>
+                            <div class="exp-panel__date">Jun 2019 – Aug 2021</div>
+                            <ul class="exp-panel__bullets">
+                                <li>(NREIP, 2021) Improved upon system for Video Object Tracking with Deep Reinforcement Learning.</li>
+                                <li>(SEAP, 2019) Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions.</li>
+                                <li>(SEAP, 2019) First author paper accepted for presentation and publication in the Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART 2020).</li>
+                            </ul>
+                        </div>
 
-                    <div class="resume-block__header">
-                        <h4 class="h3">CMU Robotics Institute – HARP Lab</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Research Assistant</span>
-                            <span class="resume-block__header-date">
-                                Aug 2023 – Jan 2025
-                            </span>
-                        </p>
-                    </div>
+                        <div class="exp-panel" id="exp-nasa" role="tabpanel">
+                            <h3 class="exp-panel__company"><a href="https://www.nasa.gov/centers/goddard">NASA Goddard Space Flight Center</a></h3>
+                            <div class="exp-panel__role">Student Research</div>
+                            <div class="exp-panel__date">Jul 2015 – Aug 2017</div>
+                            <ul class="exp-panel__bullets">
+                                <li>Worked on Geomagnetic Storms: A Study of Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors.</li>
+                                <li>Compared different models available for prediction of magnetopause location changes.</li>
+                                <li>Invited speaker at <a href="https://ccmc.gsfc.nasa.gov/ccmc-workshops/ccmc-2016-workshop/#presentations">the 8th Community Coordinated Modeling Center Workshop</a> held in Annapolis, MD in 2016.</li>
+                                <li>Poster presentation: Geospace Environment Modeling Summer Workshop, Portsmouth, Virginia (June 2017).</li>
+                                <li>Invited speaker at <a href="https://ccmc.gsfc.nasa.gov/ccmc-workshops/ccmc-2018-workshop/">the 9th Community Coordinated Modeling Center Workshop</a> held at College Park, Maryland (April 2018).</li>
+                            </ul>
+                        </div>
 
-                    <p>
-                        •	Developing a model which learns a driver’s situational awareness through eye-gaze tracking. <br>
-                        •	Constructed a driving dataset with continuous per-object situational awareness labels, traffic agent states, and driver eye-gaze collected using a protocol in a VR driving simulator  <br>
-                        •	Developed a gaze-based ML image segmentation model of a driver’s per-object situational awareness in various traffic scenarios <br>
-                        •	Paper accepted to and published in the proceedings of CoRL 2024
-                    </p>
-
-                </div> <!-- end resume-block -->
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Amazon Robotics</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Software Development Engineering Intern</span> 
-                            <span class="resume-block__header-date">
-                                May 2023 - August 2023
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Built a Python package for input validation and manipulation for simulation of a robotic fulfillment center <br>
-                        •	Reduced simulation time significantly by catching errors in 48GBs of required data before a simulation job is launched <br>
-                        •	Improved interpretability and user experience of simulation tooling and reporting  
-
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">10-423/623: Generative AI</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Teaching Assistant</span>
-                            <span class="resume-block__header-date">
-                                Aug 2024 – Dec 2024
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Teaching Assistant on the course staff for CMU's Generative AI class (10-423/623).
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">10-315: Intro to Machine Learning</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Teaching Assistant</span>
-                            <span class="resume-block__header-date">
-                                Jan 2023 – May 2024
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Teaching Assistant on the course staff for CMUs Introduction to Machine Learning class for students in the School of Computer Science (10-315). <br>
-                        •	Developed and taught weekly recitations covering lecture material for that week and walking students through relevant practice problems. <br>
-                        •	Hosted weekly office hours to help students with homework and conceptual questions, graded homework, and developed and graded exam questions  
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Cruise</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Software Engineering Intern</span> 
-                            <span class="resume-block__header-date">
-                                May 2022 - August 2022
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Implemented NPC (non-player character) intent conditioning in trajectory prediction ML model <br>
-                        •	Trained, deployed, and tested model on internal simulation dataset, achieving >5% increase in collision recall
-                        
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">07-180: Concepts in Artificial Intelligence</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Teaching Assistant</span> 
-                            <span class="resume-block__header-date">
-                                January 2022 - May 2022
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Teaching Assistant on the course staff for CMUs Concepts in AI class (07-180). <br>
-                        •	Taught Recitations, held weekly office hours, wrote and graded homework and exam problems.
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Embodied Computations Lab, CMU School of Design</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Independent Research</span> 
-                            <span class="resume-block__header-date">
-                                September 2021 - December 2021
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Improved upon a system for AI mediated collaboration in hands-on craft learning with computer vision
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">U.S. Naval Research Laboratory, NREIP Program</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Summer Research Intern</span> 
-                            <span class="resume-block__header-date">
-                                June 2021 - August 2021
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Improved upon system for Video Object Tracking with Deep Reinforcement Learning
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">U.S. Naval Research Laboratory, SEAP Program</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Summer Research Intern</span> 
-                            <span class="resume-block__header-date">
-                                June 2019 - August 2019
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Developed an algorithm for site-selection in autonomous swarms for use in humanitarian assistance and disaster-relief missions <br>
-                        •	First author paper accepted for presentation and publication in the Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART 2020) - all papers accepted to ICAART 2020 were peer reviewed by at least two experts from the International program committee, in a double-blind review process.<br>
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Johns Hopkins University Applied Physics Laboratory, ASPIRE Program</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Summer Intern</span> 
-                            <span class="resume-block__header-date">
-                                June 2018 - August 2018
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Developed an algorithm to analyze large datasets using parallel computing <br>
-                        •	Identified problems in collaboration tools used by scientists at JHU-APL and recommended solutions
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">NASA Goddard Space Flight Center</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Student Research</span> 
-                            <span class="resume-block__header-date">
-                                June 2017 - August 2017
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	Compared different models available for prediction of magnetopause location changes <br>
-                        •	Invited speaker at <a href = "https://ccmc.gsfc.nasa.gov/ccmc-workshops/ccmc-2018-workshop/">the 9th Community Coordinated Modeling Center Workshop</a> held at College Park, Maryland (April 2018) <br>
-
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">NASA Goddard Space Flight Center</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Student Research</span> 
-                            <span class="resume-block__header-date">
-                                July 2015 - June 2017
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        •	 Worked on Geomagnetic Storms: A Study of Relationship between Geomagnetic Storms and the Interplanetary Magnetic Field, 
-                    and Monitoring Geomagnetic Storms in the Ionosphere with GPS Errors <br>
-                        •	Invited speaker at the <a href = "https://ccmc.gsfc.nasa.gov/ccmc-workshops/ccmc-2016-workshop/#presentations">the 8th Community Coordinated Modeling Center Workshop</a>  held in Annapolis, MD in 2016 <br>
-                        •	Poster presentation: Geospace Environment Modeling Summer Workshop, Portsmouth, Virginia (June 2017)
-
-                    </p>
-
-                </div> <!-- end resume-block -->
-
+                    </div> <!-- exp-tabs__content -->
 
             </div>
         </div> <!-- s-resume__section -->
@@ -505,92 +328,6 @@
 
 
 
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Skills</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <p>
-                    My areas of expertise are computer science, specifically AI and ML. Here is a summary of the languages and libraries I have worked with.
-                    </p>
-
-                    <ul class="skill-bars-fat">
-                        <li>
-                        <div class="progress percent90"></div>
-                        <strong>Python</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent90"></div>
-                        <strong>NumPy</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent85"></div>
-                        <strong>Tensorflow</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent80"></div>
-                        <strong>PyTorch</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent75"></div>
-                        <strong>OpenCV</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent75"></div>
-                        <strong>XGBoost</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent80"></div>
-                        <strong>scikit-learn</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent85"></div>
-                        <strong>C</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent80"></div>
-                        <strong>Java</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent75"></div>
-                        <strong>C++</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent70"></div>
-                        <strong>Ruby</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent50"></div>
-                        <strong>MATLAB</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent60"></div>
-                        <strong>R</strong>
-                        </li>
-                        <li>
-                        <div class="progress percent50"></div>
-                        <strong>HTML, CSS, JavaScript</strong>
-                        </li>
-                    </ul>
-
-                </div> <!-- end resume-block -->
-
-            </div>
-        </div> <!-- s-resume__section -->
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Certifications</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-                    <p>• AWS Certified Cloud Practitioner</p>
-                    <p>• AWS Certified Machine Learning – Specialty</p>
-                </div> <!-- end resume-block -->
-            </div>
-        </div> <!-- s-resume__section -->
 
     </section> <!-- end s-resume -->
 
@@ -720,6 +457,20 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script>
+        (function () {
+            var tabs = document.querySelectorAll('.exp-tab');
+            tabs.forEach(function (tab) {
+                tab.addEventListener('click', function () {
+                    var target = this.dataset.target;
+                    tabs.forEach(function (t) { t.classList.remove('is-active'); });
+                    document.querySelectorAll('.exp-panel').forEach(function (p) { p.classList.remove('is-active'); });
+                    this.classList.add('is-active');
+                    document.getElementById(target).classList.add('is-active');
+                });
+            });
+        })();
+    </script>
 
 </body>
 
