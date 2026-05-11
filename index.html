@@ -48,12 +48,10 @@
             <nav class="s-header__nav">
                 <ul>
                     <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
-                    <li><a class="smoothscroll" href="#about">About</a></li>
                     <li><a class="smoothscroll" href="#education">Education</a></li>
                     <li><a class="smoothscroll" href="#resume">Experience</a></li>
                     <li><a class="smoothscroll" href="#pubs">Publications</a></li>
                     <li><a class="smoothscroll" href="#activities">Leadership & Activities</a></li>
-                    <!--<li><a class="smoothscroll" href="#contact">Say Hello</a></li>-->
                 </ul>
             </nav>
         </div> <!-- end row -->
@@ -64,32 +62,44 @@
     </header> <!-- end s-header -->
 
 
-    <!-- hero
+    <!-- hero + about (combined)
     ================================================== -->
     <section id="hero" class="s-hero target-section">
 
         <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
 
         <div class="row s-hero__content">
-            <div class="column">
 
+            <div class="column large-5 tab-12 s-hero__content-left">
                 <div class="s-hero__content-about">
-
                     <h1>Hi! I'm Shreeya Khurana.</h1>
-
+                    <img class="s-hero__pic" src="images/avatars/shreeya 3.jpg" alt="Shreeya Khurana">
                     <div class="s-hero__content-social">
                         <a href="https://github.com/shreeyakhurana"><i class="fab fa-github" aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/shreeya-khurana-cmu/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
-                        
+                        <a href="https://www.linkedin.com/in/shreeya-khurana/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="mailto:khurana.shreeya@gmail.com"><i class="fas fa-envelope" aria-hidden="true"></i></a>
                     </div>
-
-                </div> <!-- end s-hero__content-about -->
-
+                </div>
             </div>
+
+            <div class="column large-7 tab-12 s-hero__content-right">
+                <div class="s-hero__about">
+                    <p>
+                        I'm a Software Engineer at Stripe with an M.S. in Machine Learning and a B.S. in Artificial Intelligence, both from Carnegie Mellon University.
+                        My primary goal is to apply my skills to developing solutions to real-world problems, with a focus in
+                        machine learning, artificial intelligence, and software engineering. In my free time, I enjoy ice skating, reading, and learning dance choreographies.
+                    </p>
+                    <a href="files/Shreeya Khurana resume 10MAY2026.pdf" class="btn btn--stroke" target="_blank">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(255,255,255,1)"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
+                        Resume
+                    </a>
+                </div>
+            </div>
+
         </div> <!-- s-hero__content -->
 
         <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
+            <a href="#education" class="s-hero__scroll-link smoothscroll">
                 <span class="scroll-arrow">
                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z"></path></svg>
                 </span>
@@ -98,47 +108,6 @@
         </div> <!-- s-hero__scroll -->
 
     </section> <!-- end s-hero -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-        <div class="row">
-            <div class="column large-3 tab-12">
-                <img class="s-about__pic" src="images/avatars/shreeya 3.jpg" alt="">
-            </div>
-            <div class="column large-9 tab-12 s-about__content">
-                <h3>About Me</h3>
-                <p>
-                    Hi! I'm a Software Engineer at Stripe with an M.S. in Machine Learning and a B.S. in Artificial Intelligence, both from Carnegie Mellon University.
-                    My primary goal is to apply my skills to developing solutions to real-world problems, with a focus in
-                    machine learning, artificial intelligence, and software engineering. In my free time, I enjoy ice skating, reading, and learning dance choreographies.
-                </p>
-
-                <hr>
-
-                <div class="row s-about__content-bottom">
-                    <div class="column w-1000-stack">
-                        <h3>Contact Details</h3>
-                        Feel free to get in touch: <br>
-                        <span style = "color:hsla(182, 82%, 38%, 1);">EMAIL:</span> <br>
-                        <a href="mailto:khurana.shreeya@gmail.com">khurana.shreeya@gmail.com</a><br>
-                        <span style = "color:hsla(182, 82%, 38%, 1);">LINKEDIN:</span> <br>
-                        <a href="https://www.linkedin.com/in/shreeya-khurana/">shreeya-khurana</a>
-                        
-                    </div>
-                    <div class="column w-1000-stack">
-                        <a href="files/Shreeya Khurana resume 10MAY2026.pdf" class="btn btn--download" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:"><path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path><path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path></svg>
-                            Resume
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end row -->
-
-    </section> <!-- end s-about -->
 
 
     <!-- resume

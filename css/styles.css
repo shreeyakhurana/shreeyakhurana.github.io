@@ -3496,13 +3496,63 @@ input[type="button"].btn--primary:focus {
 }
 
 .s-hero__content h1 {
-    font-size: 9.8rem;
+    font-size: 3.5rem;
     font-weight: 600;
-    letter-spacing: -.04em;
-    line-height: 1;
+    letter-spacing: -.02em;
+    line-height: 1.15;
     color: white;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+.s-hero__content-left,
+.s-hero__content-right {
+    text-align: left;
+}
+
+
+.s-hero__pic {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: var(--vspace-0_75);
+    margin-bottom: var(--vspace-0_75);
+    border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.s-hero__about {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.9rem;
+    line-height: 1.75;
+}
+
+.s-hero__about p {
+    margin-bottom: var(--vspace-1_25);
+}
+
+.s-hero__about .btn--stroke {
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    border-color: rgba(255, 255, 255, 0.5);
+    background-color: transparent;
+    line-height: 1;
+}
+
+.s-hero__about .btn--stroke svg {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.s-hero__about .btn--stroke:hover,
+.s-hero__about .btn--stroke:focus {
+    background-color: var(--color-1);
+    border-color: var(--color-1);
+    color: white;
 }
 
 .s-hero__content h3 {
@@ -3672,82 +3722,27 @@ input[type="button"].btn--primary:focus {
  * responsive:
  * hero
  * ------------------------------------------------------------------- */
-@media screen and (max-width: 1600px) {
-    .s-hero__content h1 {
-        font-size: 9.4rem;
-    }
-    .s-hero__content h3 {
-        font-size: 2.2rem;
-    }
-}
-
-@media screen and (max-width: 1400px) {
-    .s-hero__content h1 {
-        font-size: 8.8rem;
-    }
-    .s-hero__content h3 {
-        font-size: 2rem;
-        max-width: 680px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .s-hero__content h1 {
-        font-size: 8.4rem;
-    }
-    .s-hero__content h3 {
-        font-size: 1.9rem;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .s-hero__content h1 {
-        font-size: 7.6rem;
-    }
-    .s-hero__content h3 {
-        font-size: 1.8rem;
-    }
-    .s-hero__content-social {
-        font-size: 2.4rem;
-    }
-}
-
 @media screen and (max-width: 800px) {
     .s-hero__content {
         padding-top: 12vh;
-    }
-    .s-hero__content h1 {
-        font-size: 6.8rem;
     }
     .s-hero__content h3 {
         max-width: 600px;
     }
 }
 
-@media screen and (max-width: 700px) {
-    .s-hero__content h1 {
-        font-size: 6.2rem;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .s-hero__content h1 {
-        font-size: 5.8rem;
+        font-size: 2.8rem;
     }
     .s-hero__content-social {
         font-size: 2.2rem;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .s-hero__content h1 {
-        font-size: 5.2rem;
-    }
-}
-
 @media screen and (max-width: 400px) {
     .s-hero__content h1 {
-        font-size: 4.8rem;
+        font-size: 2.4rem;
     }
     .s-hero__content h3 {
         font-size: 1.7rem;
